@@ -1,0 +1,170 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+ background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items:center
+  
+    
+}
+.logo {
+    width: 130px;
+    height: 40px;
+   padding:12px 55px;
+
+}
+.nav-links {
+    margin-right: 28px;
+}
+
+.nav-links a {
+    color: #fff;
+    padding: 28px 17px;
+    font-size: 16px;
+}
+.nav-links a:hover {
+    color:#1ed760
+    }
+    section {
+        height: 21vh;
+        display: flex;
+        align-items: center;
+        background: palevioletred;
+        justify-content: center;
+        
+    }
+    section h1 { 
+        color: #fff;
+    }
+
+footer {
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    
+}
+footer .bottom-logo img {
+      width: 130px;
+      padding: 55px;
+    }
+footer .top{
+    display: flex;
+    justify-content: space-between;}
+footer .container {
+        display: flex;
+    }
+
+footer .top-links {
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+footer .company, .communities, .useful-links
+        { display: flex;
+        flex-direction: column;
+        padding: 60px 30px 28px 12px;
+        margin-top: 10px;
+    
+        
+        }
+
+
+footer .top-links a{
+
+        color: #fff;
+        font-size: 16px; 
+        padding: 20px 12px 5px 12px;
+        
+     }
+    .top-links a:hover{
+        color: #1ed760;
+    }
+    .top-links span
+    {color:#919496
+    }
+
+  .social-icons {
+      width: 30vh;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 28px ;
+      margin-top: 32px;
+     
+     
+ }
+ .social-icons a{
+     border-radius: 50%; 
+     background: #222326;;
+     padding: 20px;
+     color: #fff;
+     
+ }
+ .social-icons a:hover {
+     color: #1ed760;
+ }
+ .bottom {
+     display: flex;
+     justify-content: space-between;
+     
+ }
+ .bottom a {
+     color: #fff;
+     padding: 17px;
+     font-size: 13px;
+}
+.bottom a:hover{
+    color: #1ed760;
+}
+
+.bottom-links {
+    padding: 55px 30px 20px 20px;
+    margin-bottom: 15px;
+}
+.right-side {
+    display: flex;
+    align-items: flex-end;
+
+}
+.right-top{
+    display: flex;
+    position: relative;
+   
+}
+.right-top img {
+    width: 18px;
+    position: absolute;
+    padding: 0 13px 25px 35px;
+    bottom: 30px;
+
+
+    
+}
+.right-top a{
+    position: absolute;
+    bottom: 38px;
+    left: 45px;
+    
+
+}
+.right-bottom span {
+    display: block;
+    color: #fff;
+    padding: 12px 22px 12px 12px ;
+    margin-bottom: 23px;
+    font-size: 13px;
+
+}
